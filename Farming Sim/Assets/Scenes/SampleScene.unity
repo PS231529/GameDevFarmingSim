@@ -5281,6 +5281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1872243953}
+  inventoryContainer: {fileID: 11400000, guid: c1df96121bb665044b78fba8bf0ade99, type: 2}
 --- !u!4 &704079908
 Transform:
   m_ObjectHideFlags: 0
@@ -5670,7 +5671,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &900962390
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7293,7 +7294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1623037964
 MonoBehaviour:
   m_ObjectHideFlags: 0
