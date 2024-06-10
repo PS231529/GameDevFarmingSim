@@ -13,10 +13,6 @@ MonoBehaviour:
   m_Name: New Item Container
   m_EditorClassIdentifier: 
   slots:
-  - item: {fileID: 11400000, guid: ffbb96d2aee8fef468b8332a2cbfde14, type: 2}
-    count: 10
-  - item: {fileID: 11400000, guid: 92a708c64f17d8846bd69fe17c283e1f, type: 2}
-    count: 0
   - item: {fileID: 0}
     count: 0
   - item: {fileID: 0}
@@ -43,8 +39,6 @@ MonoBehaviour:
     count: 0
   - item: {fileID: 0}
     count: 0
-  - item: {fileID: 11400000, guid: 92a708c64f17d8846bd69fe17c283e1f, type: 2}
-    count: 0
   - item: {fileID: 0}
     count: 0
   - item: {fileID: 0}
@@ -53,7 +47,13 @@ MonoBehaviour:
     count: 0
   - item: {fileID: 0}
     count: 0
-  - item: {fileID: 11400000, guid: 685b210930644554db101cd04750725d, type: 2}
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
     count: 0
   - item: {fileID: 0}
     count: 0

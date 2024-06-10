@@ -18,6 +18,23 @@ public class PickupItem : MonoBehaviour
         player = GameManager.instance.player.transform;
     }
 
+    public void Set(Item item, int count)
+    {
+        this.item = item;
+        this.count = count;
+
+        SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+        if (renderer != null && item.icon != null)
+        {
+            renderer.sprite = item.icon;
+            Debug.Log($"Set sprite to {item.icon.name} for item {item.name} with count {count}");
+        }
+        else
+        {
+            Debug.LogError("SpriteRenderer or item icon is null");
+        }
+    }
+
     private void Update()
     {
         ttl -= Time.deltaTime;
