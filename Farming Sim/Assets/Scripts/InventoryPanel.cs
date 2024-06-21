@@ -15,16 +15,15 @@ public class InventoryPanel : MonoBehaviour
 
     private void SetIndex()
     {
-        for (int i = 0; i < inventory.slots.Count; i++)
+        for (int i = 0; i < inventory.slots.Count && i < buttons.Count; i++)
         {
             buttons[i].SetIndex(i);
-
         }
     }
 
     private void Show()
     {
-        for (int i = 0; i < inventory.slots.Count; i++)
+        for (int i = 0; i < inventory.slots.Count && i < buttons.Count; i++)
         {
             if (inventory.slots[i].item == null)
             {
