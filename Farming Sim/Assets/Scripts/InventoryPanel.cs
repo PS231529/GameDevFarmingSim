@@ -13,6 +13,11 @@ public class InventoryPanel : MonoBehaviour
         Show();
     }
 
+    private void OnEnable()
+    {
+        Show();
+    }
+
     private void SetIndex()
     {
         for (int i = 0; i < inventory.slots.Count && i < buttons.Count; i++)
@@ -21,7 +26,7 @@ public class InventoryPanel : MonoBehaviour
         }
     }
 
-    private void Show()
+    public void Show()
     {
         for (int i = 0; i < inventory.slots.Count && i < buttons.Count; i++)
         {
